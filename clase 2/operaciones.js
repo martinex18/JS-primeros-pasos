@@ -36,6 +36,11 @@ var lastnamePasajero = "Cruz";
 
 var nombreCompleto = namePasajero + lastnamePasajero;
 var pasaporte = "1000" + "200";
-var divi = 
+var divi = parseInt("1000") / parseFloat("10");
 
 console.log(nombreCompleto);
+console.log(pasaporte);
+console.log(divi);
+
+var noEsUnNumero = parseInt("AASASA");
+console.log(noEsUnNumero);
