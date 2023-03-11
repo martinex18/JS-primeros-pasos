@@ -6,6 +6,6 @@ console.log(valorPasaje);
 
 const nombrePasajero = "Leo";
 const apellidoPasajero = "Cruz";
-console.log(nombrePasajero);
-console.log(apellidoPasajero);
+let nombreCompleto = `El nombre completo es: ${nombrePasajero} ${apellidoPasajero}`;
+console.log(nombreCompleto);
 
